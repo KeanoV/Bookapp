@@ -181,10 +181,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                 padding: EdgeInsets.all(8.0),
                                 child: Row(
                                   children: [
-                                    CircleAvatar(
+                                    ClipRRect(
                                       child: Image.network(
                                           snapshot.data[index].thumbnail),
-                                      maxRadius: 50,
                                     ),
                                     Padding(
                                         padding: EdgeInsets.only(right: 10.0)),
